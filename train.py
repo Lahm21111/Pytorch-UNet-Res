@@ -19,8 +19,8 @@ from unet import UNet
 from utils.data_loading import BasicDataset, CarvanaDataset
 from utils.dice_score import dice_loss
 
-dir_img = Path('/kaggle/input/res-u-net/img_all')
-dir_mask = Path('/kaggle/input/res-u-net/mask_all')
+dir_img = Path('/kaggle/input/res-u-net/imgs_all')
+dir_mask = Path('/kaggle/input/res-u-net/masks_all')
 dir_checkpoint = Path('./checkpoints/')
 
 
